@@ -19,5 +19,5 @@ before_install:
       && ./configure
       && make
       && sudo make install
-  - cd $HOME/gopath/src/github.com/harukasan/go-libwebp
+  - cd $HOME/gopath/src/github.com/saturday06/go-libwebp
   - export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
